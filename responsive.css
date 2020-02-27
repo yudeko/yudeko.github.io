@@ -28,6 +28,7 @@
   .bottom-message {
     font-size: 12px;
     padding-bottom: 5px;
+    width: 95%;
   }
 
   .bottom-message h3{
