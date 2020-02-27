@@ -1,17 +1,42 @@
-*{
-  box-sizing: border-box;
-}
 
-@media(max-width: 670px ){
-  .lessons {
+
+@media all and (max-width: 670px ){
+  .lesson {
     width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .lessons {
+    margin-bottom: 50px;
   }
 
   .btn {
     width: 100%;
   }
 
-  .clear {
-    clear: left;
+  .facebook {
+    margin-bottom: 10px;
   }
+
+  .top-message {
+    text-align: left;
+  }
+
+
+
+  .bottom-message {
+    font-size: 14px;
+    padding-bottom: 5px;
+    
+  }
+
+  .bottom-message h3{
+    padding-top: 20px;
+  }
+
+  .lesson-text{
+    width: 90%;
+  }
+
 }
